@@ -132,8 +132,8 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
 # Display
-debug.sf.auto_latch_unsignaled=0
-debug.sf.enable_gl_backpressure=0
+debug.sf.auto_latch_unsignaled=1
+debug.sf.enable_gl_backpressure=1
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=15666666
 debug.sf.late.app.duration=13666666
@@ -142,7 +142,7 @@ debug.sf.early.app.duration=13666666
 debug.sf.earlyGl.sf.duration=15666666
 debug.sf.earlyGl.app.duration=13666666
 debug.sf.enable_hwc_vds=1
-debug.sf.predict_hwc_composition_strategy=0
+debug.sf.predict_hwc_composition_strategy=1
 debug.sf.latch_unsignaled=1
 debug.sf.treat_170m_as_sRGB=1
 ro.hardware.egl=adreno
@@ -160,6 +160,7 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.supports_background_blur=1
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
+ro.surface_flinger.use_frame_rate_api=true
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
